@@ -1,0 +1,167 @@
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:serverapp:compileJava UP-TO-DATE
+:serverapp:processResources UP-TO-DATE
+:serverapp:classes UP-TO-DATE
+:serverapp:compileTestJava UP-TO-DATE
+:serverapp:processTestResources UP-TO-DATE
+:serverapp:testClasses UP-TO-DATE
+:serverapp:test UP-TO-DATE
+:sonarRunner
+SonarQube Runner 2.3
+Java 1.8.0_31 Oracle Corporation (32-bit)
+Windows 7 6.1 x86
+INFO: Runner configuration file: NONE
+INFO: Project configuration file: C:\app\Github\gradle\HelloEarthAndroid\build\tmp\sonarRunner\sonar-project.properties
+INFO: Default locale: "en_SG", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Work directory: C:\app\Github\gradle\HelloEarthAndroid\build\sonar
+INFO: SonarQube Server 5.0
+23:26:36.995 INFO  - Load global referentials...
+23:26:37.371 INFO  - Load global referentials done: 380 ms
+23:26:37.377 INFO  - User cache: C:\Users\cstan\.sonar\cache
+23:26:37.399 INFO  - Install plugins
+23:26:37.617 INFO  - Install JDBC driver
+23:26:37.632 INFO  - Create JDBC datasource for jdbc:mysql://localhost:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance
+23:26:39.282 INFO  - Initializing Hibernate
+23:26:41.829 INFO  - Load project referentials...
+23:26:42.605 INFO  - Load project referentials done: 776 ms
+23:26:42.605 INFO  - Load project settings
+23:26:43.533 INFO  - Loading technical debt model...
+23:26:43.547 INFO  - Loading technical debt model done: 14 ms
+23:26:43.553 INFO  - To enable the analysis bootstraper for Visual Studio projects, set the property "sonar.visualstudio.enable" to "true"
+23:26:43.554 INFO  - Apply project exclusions
+23:26:43.656 WARN  - 'sonar.dynamicAnalysis' is deprecated since version 4.3 and should no longer be used.
+23:26:43.661 WARN  - 'sonar.dynamicAnalysis' is deprecated since version 4.3 and should no longer be used.
+23:26:43.668 WARN  - 'sonar.dynamicAnalysis' is deprecated since version 4.3 and should no longer be used.
+23:26:43.845 INFO  - -------------  Scan app
+23:26:43.849 INFO  - Load module settings
+23:26:44.347 WARN  - sonar.binaries and sonar.libraries are deprecated since version 2.5 of sonar-java-plugin, please use sonar.java.binaries and sonar.java.libraries instead
+23:26:44.350 INFO  - Loading rules...
+23:26:44.902 INFO  - Loading rules done: 552 ms
+23:26:44.931 INFO  - Configure Maven plugins
+23:26:45.079 INFO  - Compare to previous analysis (2015-01-31)
+23:26:45.086 INFO  - Compare over 30 days (2015-01-01, analysis of 2015-01-31 23:20:19.0)
+23:26:45.091 INFO  - Compare to previous version (2015-01-31)
+23:26:45.092 INFO  - No quality gate is configured.
+23:26:46.242 INFO  - Base dir: C:\app\Github\gradle\HelloEarthAndroid\app
+23:26:46.243 INFO  - Working dir: C:\app\Github\gradle\HelloEarthAndroid\build\sonar\org.codehaus.sonar_example-hello-earth_app
+23:26:46.243 INFO  - Source encoding: windows-1252, default locale: en_SG
+23:26:46.244 INFO  - Index files
+23:26:46.252 INFO  - 0 files indexed
+23:26:46.329 WARN  - ----------------------------------------------------------------
+23:26:46.329 WARN  - Sonargraph: Projectapp [org.codehaus.sonar:example-hello-earth:app] is not processed, since no Sonargraph rules are activated in current SonarQube quality profile.
+23:26:46.329 WARN  - ----------------------------------------------------------------
+23:26:46.341 INFO  - Sensor QProfileSensor...
+23:26:46.424 INFO  - Sensor QProfileSensor done: 83 ms
+23:26:46.424 INFO  - Sensor InitialOpenIssuesSensor...
+23:26:46.539 INFO  - Sensor InitialOpenIssuesSensor done: 115 ms
+23:26:46.540 INFO  - Sensor ProjectLinksSensor...
+23:26:46.553 INFO  - Sensor ProjectLinksSensor done: 13 ms
+23:26:46.555 INFO  - Sensor VersionEventsSensor...
+23:26:46.574 INFO  - Sensor VersionEventsSensor done: 19 ms
+23:26:46.574 INFO  - Sensor FileHashSensor...
+23:26:46.575 INFO  - Sensor FileHashSensor done: 1 ms
+23:26:46.575 INFO  - Sensor SCM Sensor...
+23:26:46.575 INFO  - SCM Sensor is disabled
+23:26:46.575 INFO  - Sensor SCM Sensor done: 0 ms
+23:26:46.575 INFO  - Sensor CPD Sensor...
+23:26:46.575 INFO  - Sensor CPD Sensor done: 0 ms
+23:26:46.872 INFO  - Execute decorators...
+23:26:47.371 INFO  - -------------  Scan serverapp
+23:26:47.372 INFO  - Load module settings
+23:26:47.462 WARN  - sonar.binaries and sonar.libraries are deprecated since version 2.5 of sonar-java-plugin, please use sonar.java.binaries and sonar.java.libraries instead
+23:26:47.474 INFO  - Configure Maven plugins
+23:26:47.477 INFO  - Compare to previous analysis (2015-01-31)
+23:26:47.478 INFO  - Compare over 30 days (2015-01-01, analysis of 2015-01-31 23:20:19.0)
+23:26:47.479 INFO  - Compare to previous version (2015-01-31)
+23:26:47.480 INFO  - No quality gate is configured.
+23:26:47.515 INFO  - Base dir: C:\app\Github\gradle\HelloEarthAndroid\serverapp
+23:26:47.515 INFO  - Working dir: C:\app\Github\gradle\HelloEarthAndroid\build\sonar\org.codehaus.sonar_example-hello-earth_serverapp
+23:26:47.519 INFO  - Source paths: src/main/java
+23:26:47.522 INFO  - Binary dirs: build/classes/main
+23:26:47.522 INFO  - Source encoding: windows-1252, default locale: en_SG
+23:26:47.522 INFO  - Index files
+23:26:47.733 INFO  - 1 files indexed
+23:26:47.756 INFO  - Quality profile for java: Sonar way
+23:26:47.764 WARN  - ----------------------------------------------------------------
+23:26:47.764 WARN  - Sonargraph: Projectserverapp [org.codehaus.sonar:example-hello-earth:serverapp] is not processed, since no Sonargraph rules are activated in current SonarQube quality profile.
+23:26:47.764 WARN  - ----------------------------------------------------------------
+23:26:47.770 INFO  - Sensor JavaSquidSensor...
+23:26:50.059 INFO  - Java Main Files AST scan...
+23:26:50.066 INFO  - 1 source files to be analyzed
+23:26:50.470 INFO  - Java Main Files AST scan done: 411 ms
+23:26:50.470 INFO  - 1/1 source files analyzed
+23:26:50.474 INFO  - Java bytecode scan...
+23:26:50.560 INFO  - Java bytecode scan done: 86 ms
+23:26:50.560 INFO  - Java Test Files AST scan...
+23:26:50.560 INFO  - 0 source files to be analyzed
+23:26:50.560 INFO  - Java Test Files AST scan done: 0 ms
+23:26:50.566 INFO  - 0/0 source files analyzed
+23:26:50.593 INFO  - Package design analysis...
+23:26:50.638 INFO  - Package design analysis done: 45 ms
+23:26:50.642 INFO  - Sensor JavaSquidSensor done: 2872 ms
+23:26:50.642 INFO  - Sensor QProfileSensor...
+23:26:50.643 INFO  - Sensor QProfileSensor done: 1 ms
+23:26:50.643 INFO  - Sensor InitialOpenIssuesSensor...
+23:26:50.679 INFO  - Sensor InitialOpenIssuesSensor done: 36 ms
+23:26:50.679 INFO  - Sensor ProjectLinksSensor...
+23:26:50.682 INFO  - Sensor ProjectLinksSensor done: 3 ms
+23:26:50.683 INFO  - Sensor VersionEventsSensor...
+23:26:50.708 INFO  - Sensor VersionEventsSensor done: 25 ms
+23:26:50.708 INFO  - Sensor FileHashSensor...
+23:26:50.711 INFO  - Sensor FileHashSensor done: 3 ms
+23:26:50.711 INFO  - Sensor SurefireSensor...
+23:26:50.712 INFO  - parsing C:\app\Github\gradle\HelloEarthAndroid\serverapp\build\test-results
+23:26:50.713 INFO  - Sensor SurefireSensor done: 2 ms
+23:26:50.713 INFO  - Sensor SCM Sensor...
+23:26:50.713 INFO  - SCM Sensor is disabled
+23:26:50.714 INFO  - Sensor SCM Sensor done: 0 ms
+23:26:50.714 INFO  - Sensor CPD Sensor...
+23:26:50.714 INFO  - JavaCpdEngine is used for java
+23:26:50.714 INFO  - Cross-project analysis disabled
+23:26:50.752 INFO  - Sensor CPD Sensor done: 38 ms
+23:26:51.179 INFO  - Execute decorators...
+23:26:51.267 INFO  - -------------  Scan HelloEarthAndroid
+23:26:51.268 INFO  - Load module settings
+23:26:51.342 WARN  - sonar.binaries and sonar.libraries are deprecated since version 2.5 of sonar-java-plugin, please use sonar.java.binaries and sonar.java.libraries instead
+23:26:51.355 INFO  - Configure Maven plugins
+23:26:51.358 INFO  - Compare to previous analysis (2015-01-31)
+23:26:51.359 INFO  - Compare over 30 days (2015-01-01, analysis of 2015-01-31 23:20:19.0)
+23:26:51.360 INFO  - Compare to previous version (2015-01-31)
+23:26:51.361 INFO  - No quality gate is configured.
+23:26:51.393 INFO  - Base dir: C:\app\Github\gradle\HelloEarthAndroid
+23:26:51.393 INFO  - Working dir: C:\app\Github\gradle\HelloEarthAndroid\build\sonar
+23:26:51.393 INFO  - Source encoding: windows-1252, default locale: en_SG
+23:26:51.398 INFO  - Sensor InitialOpenIssuesSensor...
+23:26:51.411 INFO  - Sensor InitialOpenIssuesSensor done: 13 ms
+23:26:51.411 INFO  - Sensor ProjectLinksSensor...
+23:26:51.413 INFO  - Sensor ProjectLinksSensor done: 2 ms
+23:26:51.414 INFO  - Sensor VersionEventsSensor...
+23:26:51.452 INFO  - Sensor VersionEventsSensor done: 38 ms
+23:26:51.453 INFO  - Sensor FileHashSensor...
+23:26:51.453 INFO  - Sensor FileHashSensor done: 0 ms
+23:26:51.453 INFO  - Sensor SCM Sensor...
+23:26:51.453 INFO  - SCM Sensor is disabled
+23:26:51.453 INFO  - Sensor SCM Sensor done: 0 ms
+23:26:51.453 INFO  - Sensor CPD Sensor...
+23:26:51.453 INFO  - Sensor CPD Sensor done: 0 ms
+23:26:51.668 INFO  - Execute decorators...
+23:26:51.729 INFO  - Store results in database
+23:26:51.949 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/org.codehaus.sonar:example-hello-earth
+23:26:51.949 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report.
+23:26:51.950 INFO  - Executing post-job class org.sonar.plugins.core.issue.notification.SendIssueNotificationsPostJob
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 16.054s
+Final Memory: 12M/125M
+INFO: ------------------------------------------------------------------------
+
+BUILD SUCCESSFUL
+
+Total time: 28.295 secs
